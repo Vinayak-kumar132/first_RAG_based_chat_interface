@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 from pathlib import Path
-api_key=os.getenv("DIALFLO_API_KEY")
+api_key=os.getenv("API_KEY")
 # api_key=os.getenv("API_KEY")
 client = OpenAI(api_key=api_key)
 
